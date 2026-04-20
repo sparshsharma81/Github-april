@@ -1,0 +1,16 @@
+by default jobs run in parallel, to run them sequentially use --jobs=1
+
+needs : use to run jobs in sequence
+
+actions : reusable piece of code provided by github to perform common task like cloning a repo, setting up node, 
+etc. you can also create your own actions
+
+
+jobs : a set of steps that execute on the same runner. each job runs in parallel by default, 
+but you can configure them to run sequentially or conditionally based on the success or failure of other jobs.
+
+
+
+steps"
+ -name : checkout code 
+ uses : actions/checkout@v2
