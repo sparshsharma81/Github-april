@@ -15,4 +15,4 @@ jobs:
 
     steps:
       - name: Print goodbye message
-        run: echo "Goodbye from 2nd job"
+        run: echo "Second job is working"
